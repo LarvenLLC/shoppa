@@ -1,1 +1,1 @@
-const $ = require("jquery");
+import $ from "jquery";
