@@ -1,0 +1,36 @@
+{
+  "name": "shoppa",
+  "version": "1.0.0",
+  "description": "Business is best with Shoppa. Manage inventory, customers, suppliers, income, expenses, cash flow, invoices & generate reports. Anytime, Anywhere.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarvenLLC/shoppa.git"
+  },
+  "keywords": [
+    "shoppa",
+    "inventory",
+    "cash",
+    "income",
+    "expense",
+    "invoice",
+    "report",
+    "manage",
+    "account",
+    "books",
+    "management"
+  ],
+  "author": "Adam Beleko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarvenLLC/shoppa/issues"
+  },
+  "homepage": "https://github.com/LarvenLLC/shoppa#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "watchify": "^4.0.0"
+  }
+}
