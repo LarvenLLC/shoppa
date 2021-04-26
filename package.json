@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "",
-    "build": "browserify index.js -p esmify > bundle.js && browserify bundle.js -o dist/bundle.js",
+    "build": "browserify index.js -p esmify > bundle.js && browserify -t cssify bundle.js -o dist/bundle.js",
     "watch": "watchify bundle.js -o dist/bundle.js -v"
   },
   "repository": {
@@ -35,6 +35,7 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "browserify": "^17.0.0",
+    "cssify": "^1.0.3",
     "jquery": "^3.6.0",
     "watchify": "^4.0.0"
   },
