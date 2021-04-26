@@ -31,6 +31,7 @@
   "homepage": "https://github.com/LarvenLLC/shoppa#readme",
   "dependencies": {
     "browserify": "^17.0.0",
+    "jquery": "^3.6.0",
     "watchify": "^4.0.0"
   },
   "devDependencies": {
